@@ -1,3 +1,14 @@
+/*----Edits by Mayank------*/
+let darkMode = localstorage.getItem("darkMode");
+if (darkMode === null) {
+darkMode = "light";
+}
+
+document.body.setAttribute("data-theme", darkMode);
+
+
+/*Mayank's edit over*/
+
 /*===== MENU SHOW =====*/
 
 const showMenu = (toggleId, navId) => {
