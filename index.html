@@ -3,7 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    
+    <meta name="keywords" content="DSR, portfolio, Deependra Singh Rajput" />
+    <meta name="description" content="" />
+    <meta property="og:title" content="DSR - Portfolio" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="http://dsrportfolio.me/portfolio/assets/img/about.jpg" />
+    <meta property="og:url" content="dsrportfolio.me/portfolio" />
+    
     <link rel="stylesheet" href="assets/css/styles.css" />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -269,7 +276,7 @@
           ><i class="bx bxl-twitter"></i
         ></a>
       </div>
-      <p>&#169; 2020 copyright all right reserved</p>
+      <p>&#169; <span id="currentYear"></span> copyright all right reserved</p>
     </footer>
 
     <!--===== SCROLL REVEAL =====-->
@@ -277,5 +284,13 @@
 
     <!--===== MAIN JS =====-->
     <script src="assets/js/main.js"></script>
+    
+    <!--=====DYNAMIC DATE ON FOOTER====->
+    <script>
+        let footerYear = document.getElementById("currentYear");
+        let year = new Date().getFullYear();
+        footerYear.innerText = year;
+    </script>
+
   </body>
 </html>
