@@ -270,7 +270,7 @@ img {
   position: relative;
   font-weight: var(--font-semi);
   padding: 0.5rem 1rem;
-  margin-bottom: var(--mb-4);
+  margin-bottom: var(--mb-2);
   border-radius: 0.5rem;
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
 }
@@ -304,8 +304,17 @@ img {
 .skills__cpp {
   width: 75%;
 }
+.skills__c {
+  width: 80%;
+}
 .skills__csharp {
   width: 65%;
+}
+.skills__python {
+  width: 55%;
+}
+.skills__mysql {
+  width: 80%;
 }
 .skills__img {
   border-radius: 0.5rem;
